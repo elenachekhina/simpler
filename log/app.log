@@ -1,0 +1,12 @@
+I, [2023-04-02T12:47:44.696636 #22331]  INFO -- : Request: GET /tests
+I, [2023-04-02T12:47:44.696723 #22331]  INFO -- : Handler: TestsController#index
+I, [2023-04-02T12:47:44.696751 #22331]  INFO -- : Parameters: {}
+I, [2023-04-02T12:47:44.696774 #22331]  INFO -- : Response: 200 [text/html] tests/index
+I, [2023-04-02T12:48:58.203803 #22331]  INFO -- : Request: GET /test/1
+I, [2023-04-02T12:48:58.212994 #22331]  INFO -- : Handler: TestsController#show
+I, [2023-04-02T12:48:58.213071 #22331]  INFO -- : Parameters: {:id=>"1"}
+I, [2023-04-02T12:48:58.213111 #22331]  INFO -- : Response: 200 [text/html] 
+I, [2023-04-02T12:50:48.216637 #22331]  INFO -- : Request: POST /tests
+I, [2023-04-02T12:50:48.216711 #22331]  INFO -- : Handler: TestsController#create
+I, [2023-04-02T12:50:48.216745 #22331]  INFO -- : Parameters: {}
+I, [2023-04-02T12:50:48.216773 #22331]  INFO -- : Response: 200 [text/html] tests/create
