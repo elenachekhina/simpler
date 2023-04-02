@@ -8,4 +8,8 @@ class TestsController < Simpler::Controller
 
   end
 
+  def show
+    render inline: '<%= Test.find(params[:id].to_i) %>'
+  end
+
 end
